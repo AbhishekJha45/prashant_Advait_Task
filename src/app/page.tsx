@@ -2,7 +2,7 @@
 import Container from '@/components/Container';
 import Hero from '@/components/Hero/Hero';
 import VideoSeries from '@/components/courses/VideoSeries';
-import Faq from '@/components/Faq/Faq';
+import Faq from '@/components/Faq/FaqSection';
 
 const Home = () => {
     return (

@@ -6,7 +6,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { useData } from '@/context/DataContext';
 import FaqLoadingSkeleton from './FaqLoadingSkeleton';
 
-const Faq = () => {
+const FaqSection = () => {
     const { language } = useLanguage();
     const { faq } = useData();
 
@@ -69,4 +69,4 @@ const Faq = () => {
     );
 };
 
-export default Faq;
+export default FaqSection;

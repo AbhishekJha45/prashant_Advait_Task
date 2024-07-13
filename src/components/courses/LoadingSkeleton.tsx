@@ -1,6 +1,6 @@
 import { Skeleton } from '../ui/skeleton';
 
-const VideoSeriesLaodingSkeleton = () => {
+const LoadingSkeleton = () => {
     return [1, 2, 3, 4, 5, 6, 7, 8].map((item, index) => (
         <div key={index} className='border rounded-md border-slate-100 hover:bg-slate-100 hover:shadow'>
             <div className='px-4 py-3 rounded-md'>
@@ -18,4 +18,4 @@ const VideoSeriesLaodingSkeleton = () => {
     ));
 };
 
-export default VideoSeriesLaodingSkeleton;
+export default LoadingSkeleton;

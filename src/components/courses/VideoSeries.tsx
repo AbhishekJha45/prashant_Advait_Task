@@ -1,9 +1,9 @@
 import { useData } from '@/context/DataContext';
 import { useLanguage } from '@/context/languageContext';
 import React from 'react';
-import VideoSeriesCard from './VideoSeriesCard';
-import VideoSeriesLaodingSkeleton from './VideoSeriesLaodingSkeleton';
-import VideoSeriesBottomBar from './VideoSeriesBottomBar';
+import VideoSeriesCard from './Card';
+import VideoSeriesLaodingSkeleton from './LoadingSkeleton';
+import VideoSeriesBottomBar from './BottomBar';
 
 const VideoSeries = () => {
     const { language } = useLanguage();

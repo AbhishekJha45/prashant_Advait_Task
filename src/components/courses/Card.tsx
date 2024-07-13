@@ -1,6 +1,6 @@
 import { CourseType, LanguageType } from '@/types';
 import React from 'react';
-import Badge from './Badge';
+import Badge from './MakeBadge';
 import Link from 'next/link';
 
 interface VideoSeriesCardProps {
@@ -8,7 +8,7 @@ interface VideoSeriesCardProps {
     course: CourseType;
 }
 
-const VideoSeriesCard = ({ language, course }: VideoSeriesCardProps) => {
+const Card = ({ language, course }: VideoSeriesCardProps) => {
     const { id, title, subtitle, courseHours, amount, originalAmount, language: Language } = course;
     const seq = `भाग-${course.series.order.seq.toString()}`;
     const courseDuration = `${
@@ -62,4 +62,4 @@ const VideoSeriesCard = ({ language, course }: VideoSeriesCardProps) => {
     );
 };
 
-export default VideoSeriesCard;
+export default Card;

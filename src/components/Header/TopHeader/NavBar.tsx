@@ -19,7 +19,10 @@ const NavBar = ({ language, className }: NavbarProps) => {
     return (
         <>
             <ul className={`flex font-semibold tracking-wide items-center *:cursor-pointer ${className}`}>
-                <ListItem url='/' name={language === 'en' ? 'Home' : 'होम'} />
+                <ListItem  
+                   url={`https://acharyaprashant.org/${language}/home`}
+                   name={language === 'en' ? 'Home' : 'होम'}
+                />
                 <LiveSessionItem language={language} />
                 <ListItem
                     url={`https://acharyaprashant.org/${language}/video-modules`}
@@ -42,7 +45,7 @@ const NavBar = ({ language, className }: NavbarProps) => {
                 />
                 <ListItem
                     url={`https://acharyaprashant.org/${language}/hiring`}
-                    name={language === 'en' ? 'In Media' : 'करियर'}
+                    name={language === 'en' ? 'Careers' : 'करियर'}
                     className='hidden lg:inline-block'
                 />
                 <ListItem

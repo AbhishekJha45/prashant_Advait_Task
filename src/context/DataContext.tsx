@@ -1,5 +1,5 @@
 'use client';
-import { Axios, getAllData, getFaqData, getTags, handleAxiosError } from '@/api/apiClient';
+import { Axios, getAllData, getFaqData, getTags, handleAxiosError } from '@/api/ClientAPI';
 import { CourseType, FaqType, HeroDetailsType, RelatedContentType, TagResponseType } from '@/types';
 import { createContext, Dispatch, ReactNode, SetStateAction, useContext, useEffect, useState } from 'react';
 import { useLanguage } from './languageContext';

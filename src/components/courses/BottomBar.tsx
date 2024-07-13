@@ -1,7 +1,7 @@
 import { CourseType } from '@/types';
 import React from 'react';
 
-const VideoSeriesBottomBar = ({ courses }: { courses: CourseType[] | null }) => {
+const BottomBar = ({ courses }: { courses: CourseType[] | null }) => {
     const courseLength = courses?.length;
 
     const show = (number: number) => {
@@ -34,4 +34,4 @@ const VideoSeriesBottomBar = ({ courses }: { courses: CourseType[] | null }) => 
     );
 };
 
-export default VideoSeriesBottomBar;
+export default BottomBar;

@@ -1,6 +1,6 @@
 import { TbBadgeFilled } from 'react-icons/tb';
 
-const Badge = ({ seq }: { seq: string }) => {
+const MakeBadge = ({ seq }: { seq: string }) => {
     return (
         <div className='my-2'>
             <div className='h-[22px] text-xl rounded-l w-7 bg-slate-400'>
@@ -11,4 +11,4 @@ const Badge = ({ seq }: { seq: string }) => {
     );
 };
 
-export default Badge;
+export default MakeBadge;
