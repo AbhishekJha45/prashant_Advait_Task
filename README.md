@@ -33,9 +33,9 @@ Step 2: Installing the dependencies using node package manager npm
 Step 3: Create a .env file to store environment variables base and image url
 
 ```bash
-  BASE_URL = https://api.acharyaprashant.org/v2/legacy/courses
+  NEXT_PUBLIC_BASE_URL = https://api.acharyaprashant.org/v2/legacy/courses
 
-  IMAGE_URL = https://cimg.acharyaprashant.org
+  NEXT_PUBLIC_IMAGE_URL = https://cimg.acharyaprashant.org
 ```
 
 Step 4: Start the project in your local system
