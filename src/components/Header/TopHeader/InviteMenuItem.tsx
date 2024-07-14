@@ -64,7 +64,6 @@ const ListItem = ({ name, url, setOpen }: ListItemProps) => {
         <li>
             <Link
                 href={url}
-                target='_blank'
                 className='inline-block w-full px-2 py-2 font-semibold rounded-md text-nowrap hover:bg-brand-3'
                 onClick={() => setOpen(false)}
             >

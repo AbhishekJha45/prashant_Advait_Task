@@ -17,7 +17,6 @@ const DrawerHeader = ({ language, openLiveSection, setOpenLiveSection }: DrawerC
             <SheetHeader className='max-md:mb-9'>
                 <Link
                     href={`https://acharyaprashant.org/${language}/login?page=https://acharyaprashant.org/${language}/video-modules/series/course-series-eeb9d3`}
-                    target='_blank'
                     className='flex items-center gap-3 font-semibold text-brand-1'
                 >
                     <FaCircleUser className='hidden text-4xl sm:block' />
@@ -37,7 +36,6 @@ const DrawerHeader = ({ language, openLiveSection, setOpenLiveSection }: DrawerC
                         <>
                             <Link
                                 href={`https://acharyaprashant.org/${language}/login?page=https://acharyaprashant.org/${language}/video-modules/series/course-series-eeb9d3`}
-                                target='_blank'
                                 className='-mx-3 sm:hidden px-3 py-1.5 border-2 rounded-md text-slate-100'
                             >
                                 {language === 'hi' ? 'लॉगिन करें' : 'Login'}

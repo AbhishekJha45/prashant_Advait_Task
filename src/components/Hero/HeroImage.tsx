@@ -14,7 +14,7 @@ const HeroImage = ({ imageBasePath }: HeroImageProps) => {
                 <>
                     <Image
                         layout='fill'
-                        src={`${process.env.NEXT_PUBLIC_IMAGE_BASE_URL}/${imageBasePath}/10/image.jpg`}
+                        src={`${process.env.IMAGE_URL}/${imageBasePath}/10/image.jpg`}
                         alt='hero-image'
                     />
                     <div className='absolute bottom-0 w-full h-1/3 bg-gradient-to-t from-black'></div>

@@ -16,7 +16,6 @@ const HeroBreadcrumb = ({ language }: { language: LanguageType }) => {
                 <BreadcrumbItem className='font-normal'>
                     <BreadcrumbLink
                         href={`https://acharyaprashant.org/${language}/video-modules`}
-                        target='_blank'
                         className='hover:text-brand-2'
                     >
                         {language === 'hi' ? 'होम' : 'Home'}

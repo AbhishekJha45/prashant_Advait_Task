@@ -22,7 +22,6 @@ const FaqSection = () => {
                             आप जिस उत्तर की तलाश कर रहे हैं वह नहीं मिल रहा है? कृपया हमारी{' '}
                             <Link
                                 href={`https://acharyaprashant.org/${language}/technical-support`}
-                                target='_blank'
                                 className='cursor-pointer text-brand-2'
                             >
                                 सपोर्ट

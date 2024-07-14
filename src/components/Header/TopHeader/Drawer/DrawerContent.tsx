@@ -124,7 +124,6 @@ const ListItem = ({ name, url }: ListItemProps) => {
     return (
         <a
             href={url}
-            target='_blank'
             rel='noreferrer'
             className={`inline-block py-2 px-3 cursor-pointer hover:bg-gray-100 rounded-md hover:text-slate-900 text-nowrap w-full`}
         >

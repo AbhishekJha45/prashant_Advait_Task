@@ -21,7 +21,6 @@ const MidHeader = () => {
                     <div className='px-2 py-1.5 text-xs border rounded-md text-nowrap'>
                         <a
                             href={`https://acharyaprashant.org/${language}/contribute/contribute-work?cmId=m00071`}
-                            target='_blank'
                         >
                             {language === 'en' ? 'Extend your hand' : 'अपना कर्तव्य निभाएँ'}
                         </a>

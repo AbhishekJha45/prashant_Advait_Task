@@ -36,7 +36,7 @@ const MenuBar = ({ childTags, setChildTags, childListMenuRef, menuBarRef }: Menu
             className='absolute py-5 rounded-md px-4 text-slate-500 font-medium min-w-64 h-[600px] bg-white cursor-pointer left-32 lg:left-44 xl:left-52 2xl:left-96 top-28'
         >
             {/* <div className='text-slate-500 font-medium'> */}
-            <Link href={`https://acharyaprashant.org/${language}/video-modules/`} target='_blank' className='w-full'>
+            <Link href={`https://acharyaprashant.org/${language}/video-modules/`} className='w-full'>
                 <div className='flex items-center justify-between w-full py-2 hover:text-brand-2'>
                     <span className='text-sm'>{language === 'hi' ? `सभी` : `All`}</span>
                 </div>
@@ -52,7 +52,6 @@ const MenuBar = ({ childTags, setChildTags, childListMenuRef, menuBarRef }: Menu
                         >
                             <Link
                                 href={`https://acharyaprashant.org/${language}/video-modules/tags/${tag.tagId}`}
-                                target='_blank'
                                 className='w-full'
                             >
                                 <div
@@ -78,7 +77,6 @@ const MenuBar = ({ childTags, setChildTags, childListMenuRef, menuBarRef }: Menu
                                 <div key={tag.tagId} className='group flex items-center justify-between'>
                                     <Link
                                         href={`https://acharyaprashant.org/${language}/video-modules/tags/${tag.tagId}`}
-                                        target='_blank'
                                         className='w-full'
                                     >
                                         <div className='flex items-center text-sm justify-between w-full py-2 hover:text-brand-2'>

@@ -6,7 +6,7 @@ type ActionContextType = {
     setBottomHeaderSticky: Dispatch<SetStateAction<boolean>>;
     setSticky: (value: boolean) => void;
     menuBarActive: boolean;
-    setMenuBarActive: Dispatch<SetStateAction<boolean>>;
+    setMenuBarActive: Dispatch<SetStateAction<boolean>>;  
 };
 
 const ActionContext = createContext<ActionContextType | null>(null);

@@ -32,14 +32,13 @@ const TopHeader = () => {
                         </div>
                         <div className='flex items-center gap-4 md:gap-3'>
                             <div className='px-2.5 py-0.5 text-sm font-semibold border rounded-md md:hidden'>
-                                <a href={`https://acharyaprashant.org/${language}/contribute`} target='_blank'>
+                                <a href={`https://acharyaprashant.org/${language}/contribute`}>
                                     {language === 'hi' ? 'योगदान करें' : 'Donate'}
                                 </a>
                             </div>
                             <SelectLanguage language={language} setLocalLanguage={setLocalLanguage} />
                             <Link
                                 href={`https://acharyaprashant.org/${language}/enquiry`}
-                                target='_blank'
                                 className='hidden py-3 cursor-pointer lg:block'
                             >
                                 <IoCallOutline className='text-2xl' />

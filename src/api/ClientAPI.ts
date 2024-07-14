@@ -2,7 +2,7 @@ import { FaqType, LanguageType, ResDataType, TagResponseType, ValidationError } 
 import axios from 'axios';
 import { promises } from 'dns';
 
-const apiBaseUrl = process.env.NEXT_PUBLIC_API_BASE_URL;
+const apiBaseUrl = process.env.BASE_URL;
 
 // Axios...
 export const Axios = axios.create({
