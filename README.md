@@ -6,8 +6,6 @@ I used React.js, Next.js, Tailwind.css and Typescript to build it.so backend end
 
 I have used the apis to develop the vedio series page and rest are redirected to the original website.
 
--   Website Deployed Link :- https://acharyaprashant.vercel.app/
-
 ## Tech Stack
 
 **`Next.js` :** React.js framework for server-side rendering and static site generation.
